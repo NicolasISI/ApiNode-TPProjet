@@ -15,11 +15,11 @@ db.mongoose
         useFindAndModify: false
     })
     .then(() => {
-        console.log("Successfully connect to MongoDB.");
+        console.log("Succès de la connection à MongoDB");
         initial();
     })
     .catch(err => {
-        console.error("Connection error", err);
+        console.error("Erreur lors de la connection à MongoDB : ", err);
         process.exit();
     });
 
