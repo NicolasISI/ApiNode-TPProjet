@@ -32,7 +32,7 @@ function initial() {
                 if (err) {
                     console.log("error : ", err);
                 }
-                console.log("Role 'user' added in role collection success");
+                console.log("Role 'user' ajouté avec succès dans la collection");
             });
             new Role({
                 name:"admin"
@@ -40,7 +40,7 @@ function initial() {
                 if (err) {
                     console.log("error : ", err);
                 }
-                console.log("Role 'admin' added in role collection success");
+                console.log("Role 'admin' ajouté avec succès dans la collection");
             });
             new Role({
                 name:"moderator"
@@ -48,7 +48,7 @@ function initial() {
                 if (err) {
                     console.log("error : ", err);
                 }
-                console.log("Role 'moderator' added in role collection success");
+                console.log("Role 'moderator' ajouté avec succès dans la collection");
             })
         }
     })
